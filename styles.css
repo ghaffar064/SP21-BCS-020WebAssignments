@@ -1,0 +1,103 @@
+.mainContainer{
+    
+       
+           justify-content: center;
+          
+           
+}
+#firstAlert{
+    text-align: center; padding :2px;
+}
+#searchInput{
+    padding-left: 150px;padding-right: 50px;
+                display: flex;
+      justify-content: center;
+      align-items: center;
+              border-radius: 20px; border-color: black;
+}
+#searchBtn{
+    border-color: black; color: white; border-radius: 20px; 
+               padding-left: 50px; padding-right: 50px; background-color: black; position: absolute; margin-left: 350px;
+}
+#cartBtn{
+    border-style: none; margin-right: 30px; padding-right: 15px;padding-left: 15px;
+}
+#navBar{
+    margin-left: 300px;
+}
+#DivBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btns{
+    border-style: none; margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.dlfix-imgs{
+    display: flex;
+   
+    margin: 5px;
+    gap: 5px;
+    justify-content: center;
+   
+
+}
+
+  
+ 
+  
+  /* Style the button and place it in the middle of the container/image */
+  .btn2{
+    position: absolute;
+    top: 140%;
+    left: 27%;
+   
+    background-color: red;
+    
+    font-size: 16px;
+    padding: 12px 24px;
+    
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+  }
+
+ 
+.btn1{
+    top: 140%;
+    right: 23%;
+    position: absolute;
+    border-radius: 5px;
+    background-color:red;
+    font-size: 16px;
+    padding: 12px 24px;
+    justify-content: center;
+}
+  .container1 .btn1:hover {
+    background-color: black;
+  }
+  #Footer{
+    clear: both;
+    color: #fff;
+    padding: 20px 0 0;
+    position: relative;
+    background-color: #000;
+    overflow: hidden;
+  }
+  #fotter-bar{
+    overflow: hidden;
+    max-width: 1150px;
+  }
+  .fotter-section{
+    float: left;
+    width: 220px;
+    padding-left: 10px;
+  }
+  div{
+    display: block;
+  }

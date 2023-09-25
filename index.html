@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/0f2695b870.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="mainContainer">
+    <div class="alert alert-secondary" role="alert" id = "firstAlert">
+           
+                Free Shipping & Free Returns & Exchanges
+        
+      </div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">E-Commerce Shop</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse"  id ="navBar">
+           
+            <form class="d-flex" role="search" >
+              <input class="form-control me-2" type="search" placeholder="Search Products" aria-label="Search" 
+                    id = "searchInput"
+               >
+              <button class="btn btn-outline-success" type="submit"
+               id = "searchBtn">Search</button>
+            </form>
+                
+          </div>
+          <button class="btn btn-secondary" id="cartBtn" ><i class="fa fa-shopping-cart" ></i></button>
+        </div>
+      </nav>
+      <div class="" role="alert" id="DivBtn">
+        <button id="btns" class="btn btn-secondary"> NEW IN</button>
+        <button id="btns" class="btn btn-secondary"> MENS SHOP</button>
+        <button id="btns" class="btn btn-secondary"> WOMENS SHOP</button>
+        <button id="btns" class="btn btn-secondary"> BEST SELLER</button>
+        <button id="btns" class="btn btn-secondary"> CUSTOMER HELP</button>
+
+      </div>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="jackets3.jpg" class="d-block w-100" alt="..." height="500" width="100" >
+          </div>
+          <div class="carousel-item">
+            <img src="jackets3.jpg" class="d-block w-100" alt="..." height="500" width="100"  >
+          </div>
+          <div class="carousel-item">
+            <img src="jackets3.jpg" class="d-block w-100" alt="..." height="500" width="100"  >
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="dlfix-imgs">
+        <d2iv >
+            <a href="">
+                <img src="jackets3.jpg" alt="Men's Collections" width="625" height="450">
+            </a>
+            <button class="btn2">MENS SHOP</button>
+           
+        </d2iv>
+        <div >
+            <a href="">
+                <img src="jackets3.jpg" alt="Women's Collections" width="625" height="450">
+            </a>
+            <button class="btn1">WOMEN SHOP</button>
+        </div>
+   
+
+    </div>
+
+
+    <div id="Footer">
+        <script>
+          $(document).ready(function () {
+            var userAgent = navigator.userAgent.toLowerCase();
+            if (userAgent.indexOf('safari') != -1) {
+              if (userAgent.indexOf('chrome') > -1) {
+                //browser is chrome
+              } else {
+                //browser is safari, add css
+                $(".costume img").css("max-height", "inherit");
+              }
+            }
+          });
+        </script>
+      
+        <div id="fotter-bar">
+      
+          <div class="fotter-section">
+            <h4>MEN'S COLLECTION</h4>
+            <ul>
+              <li><a href="/categories/Mens-Leather-Jackets/">Leather Jacket Mens</a></li>
+              <li><a href="/categories/Mens-Leather-Jackets/Black-Jackets/">Black Leather Jackets</a></li>
+              <li><a href="/categories/Brown-Leather-Jackets/">Brown Leather Jackets</a></li>
+              <!-- <li><a href="/categories/Mens-Red-Leather-Jackets/">Red Leather Jackets</a></li> -->
+              <li><a href="/categories/Mens-Leather-Jacket-With-Hood/">Leather Jacket with Hood</a></li>
+              <li><a href="/categories/Mens-Slim-Fit-Jackets/">Slim Fit Jackets</a></li>
+              <li><a href="/categories/Mens-Leather-Shearling-Coats-Jackets/">Shearling Coats</a></li>
+              <li><a href="/categories/Mens-Bomber-Jackets/">Mens Bomber Jackets</a></li>
+              <li><a href="/categories/Mens-Leather-Jackets/Biker-Jackets/">Leather Biker Jackets</a></li>
+              <!-- <li><a href="/categories/Quilted-Leather-Jacket-Mens/">Quilted Leather Jackets Mens</a></li> -->
+              <li><a href="/categories/Winter-Coat-And-Jackets/">Winter Jackets</a></li>
+              <li><a href="/categories/Mens-Distressed-Leather-Jacket/">Distressed Leather Jacket</a></li>
+              <li><a href="/categories/Mens-Wool-Coat/">Mens Wool Coat</a></li>
+              <li><a href="/categories/Mens-Sport-Coats/">Mens Sports Coat</a></li>
+              <li><a href="/categories/Mens-Leather-Jackets/Suede-Jackets/">Mens Suede Jackets</a></li>
+              <li><a href="/categories/Leather-Trucker-Jackets-Men/">Mens Trucker Jackets</a></li>
+              <!-- <li><a href="/categories/Mens-Double-Rider-Jackets/">Mens Double Rider Jackets</a></li> -->
+              <li><a href="/categories/1920s-Mens-Suit/">1920s Mens Suit</a></li>
+              <li><a href="/categories/Mens-Tuxedos-And-Suits/">Mens Tuxedos and Suits</a></li>
+            </ul>
+          </div>
+          <div class="fotter-section">    
+            <h4>WOMEN'S COLLECTION</h4>
+            <ul>
+      
+              <li><a href="/categories/Best-Women-Leather-Jackets/">Leather Jacket Womens</a></li>
+              <li><a href="/categories/Womens-Black-Leather-Jackets/">Womens Black Leather Jackets</a></li>
+              <li><a href="/categories/Best-Women-Leather-Jackets/Brown-Jackets/">Womens Brown Leather Jacket</a></li>
+              <li><a href="/categories/Womens-Hooded-Leather-Jackets/">Womens Hooded Jackets</a></li>
+              <li><a href="/categories/Womens-Shearling-Leather-Jackets/">Womens Shearling Jackets</a></li>
+              <!-- <li><a href="/categories/Womens-Distressed-Leather-Jackets/">Womens Distressed Jackets</a></li> -->
+              <li><a href="/categories/Womens-Leather-Biker-Jackets/">Womens Leather Biker Jackets</a></li>
+              <li><a href="/categories/Womens-Leather-Blazers/">Womens Leather Blazers</a></li>
+              <!-- <li><a href="/categories/Womens-Bomber-Jackets/">Womens Bomber Jackets</a></li> -->
+              <!-- <li><a href="/categories/Womens-Quilted-Leather-Jacket/">Womens Quilted Leather Jacket</a></li> -->
+              <!-- <li><a href="/categories/Womens-Red-Leather-Jackets/">Womens Red Leather Jackets</a></li> -->
+              <li><a href="/categories/Wool-Coats-for-Women/">Wool Coats For Women</a></li>
+      
+      
+            </ul>
+            <h4>SHOP</h4>
+            <ul>
+      
+              <li><a href="/categories/best-selling-items/">Best Selling Items</a></li>
+              <li><a href="/categories/new-arrivals/">New Arrivals</a></li>
+              <li><a href="/pages/Wholesale-Leather-Jackets.html">Wholesale Program</a></li>
+              <li><a href="/pages/policies.html">Terms and Conditions</a></li>
+              <li><a href="/pages/Tips-To-Maintain-A-Leather-Jacket.html">How To Care</a></li>
+              <li><a href="/pages/Why-Buy-From-Us.html">Why Buy From Us</a></li>
+              <li><a href="/pages/Customer-Testimonials.html">Customers' Gallery</a></li>
+      
+            </ul>
+      
+          </div>
+        
+          <div class="fotter-section">
+            <h4>Customer Care</h4>
+            <ul>
+      
+              <li class="contact-us enq" style="width:70%"><a href="/pages/track-your-order.html">Track Your Order</a></li>
+              <!-- <li class="contact-us enq" style="width:70%"><a href="/pages/Order-Return-Portal.html">Order Return Portal</a> -->
+              
+              <li><a href="/pages/FAQS.html">FAQS</a></li>
+              <li><a href="/pages/shipping-policy.html">Shipping &amp; Delivery</a></li>
+              <li><a href="https://www.angeljackets.com/pages/Return-and-Exchanges.html">Returns &amp; Exchange</a></li>
+              <li><a href="/pages/Sizing-Guide.html">Size Guide</a></li>
+              <li><a href="/pages/privacy-policy.html">Privacy Policy</a></li>
+              <li><a href="/pages/Sourcing-And-Labor-Standards.html">Sourcing And Labor Standards</a></li>
+              <li class="contact-us enq" style="width:70%"><a href="/pages/Contact-Us.html">Contact US</a></li>
+              <br>
+              <!-- <h4>PHONE:</h4>
+              <li style="font-size:14px;">(773) 570-9070</li> -->
+              <h4>NEED HELP?</h4>
+              <li>
+        <a href="https://m.me/569432066431460" class="fb-btn" target="_blank" data-aalisten="1"><span class="fb-icon"></span>Chat With Us </a>
+        <style>
+        .fb-btn{border:none;border-radius:5px;font-size:15px!important;text-align:center;cursor:pointer;display:flex;align-items:center;max-width:90%;padding:5px;width:90%;color:#fff!important;margin:5px 0}.fb-icon{display:inline-block;vertical-align:middle;margin-right:10px;width:25px;height:25px;background-image:url('https://angeljackets.com/images/social_icon/messenger.webp');background-repeat:no-repeat;background-size:contain}form.checkout h3{font-size:1.1em;font-weight:bolder;overflow:hidden;padding-top:10px;text-transform:uppercase}
+        </style>
+      
+      </li>
+              <br>
+              <h4>WE'RE BBB ACCREDITED</h4>
+              <img src="/templates/Automotive/images/2021-01-10.webp" alt="BBB Accreditation Certificate" loading="lazy" height="auto" width="auto" id="XAngelCertificateFooterX">
+              <br>
+               <ul>
+      </ul></ul></div>
+      
+          <div class="fotter-section">
+            <h4>CONNECT WITH US</h4>
+            <ul class="social-icon">
+              <li class="">
+                <a href="https://www.facebook.com/AngelJacketsPage">
+                  <span class="icon font-icon-facebook"></span>
+                  <span class="icon-text">Facebook</span></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/AngelJacketss"><span class="icon font-icon-twitter"></span><span class="icon-text">twitter</span></a>
+              </li>
+              <li><a href="https://www.instagram.com/angeljacketss/"><span class="icon font-icon-gplus"></span><span class="icon-text">instagram</span></a></li>
+              <li><a href="https://www.pinterest.com/AngeljacketsFan/"><span class="icon font-icon-pinterest"></span><span class="icon-text">pinterest</span></a></li>
+              <li><a href="https://youtube.com/channel/UCd1kjN88opsTMDeR7pqNViA/?sub_confirmation=1"><span class="icon font-icon-youtube"></span> <span class="icon-text">YouTube</span></a></li>
+              <li><a href="#"><img class="XAngelLogoFooterX" src="/product_images/angel_jacket_logo_footer.webp" alt="angel jackets website logo" loading="lazy" height="auto" width="auto"></a><a></a></li><a>
+            </a></ul><a>
+            <br class="Clear">
+            <br class="Clear">
+            <div style="color:white;">
+              <h4>Address:</h4>
+              <p style="color:#f68b00; font-size:13px;">US HEAD OFFICE:</p>
+              <span class="font-footer14">
+      
+                4000 W Montrose Ave
+                Chicago, IL 60641
+              </span>
+      
+              <br class="Clear">
+              <br class="Clear">
+      
+              <p style="color:#f68b00; font-size:13px;">UK SALES OFFICE:</p>
+            <span class="font-footer14">
+              56, West Wood Road,
+              Essex, London
+              England
+              United Kingdom
+              IG3 8RZ
+            </span>
+      
+              <br class="Clear">
+      
+              <br class="Clear">
+      
+              <h4>We Accept</h4>
+              <div class="bo-img"><img src="https://www.angeljackets.com/images/payment.webp" alt="payment" loading="lazy" height="auto" width="auto"></div>
+            </div>
+          </a></div><a>
+      
+          
+          <div class="footer-line"></div>
+          </a><div class="footer_bottom" style="text-align: center;"><a>
+            </a><p><a>All prices are in <span title="USD">USD</span>.
+              Copyright 2023 Angel Jackets.
+              </a><a href="https://www.angeljackets.com/sitemap/" style="color: white;"><span>Sitemap</span></a> |
+              
+               <br class="Clear">
+            </p>
+          </div>
+        </div>
+      </div>
+    
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
