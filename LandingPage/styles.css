@@ -1,0 +1,99 @@
+  /* Custom CSS for your e-commerce website */
+
+        /* Global Styles */
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #f9f9f9;
+      }
+   
+
+      /* Header Styles */
+      .navbar {
+          background-color: #333; /* Dark background color for the header */
+          color: white; /* Text color for the header */
+      }
+
+      .navbar-brand { 
+          font-size: 24px;
+          font-weight: bold;
+      }
+
+      .nav-link {
+          color: white;
+      }
+
+      /* Search Bar Styles */
+      #searchInput {
+          padding: 10px;
+          border-radius: 25px;
+          border: 1px solid #ddd;
+          background-color: white;
+          margin-left: 350px;
+      }
+
+      #searchBtn {
+          background-color: #333;
+          color: white;
+          border-radius: 25px;
+          border: none;
+      }
+
+      /* Carousel Styles */
+     #carouselExampleSlidesOnly {
+
+}
+
+      /* Product Card Styles */
+      .product-card {
+        
+          border: 1px solid #ddd;
+          border-radius: 5px;
+          padding: 10px;
+          margin: 10px;
+          transition: transform 0.2s;
+      }
+
+      .product-card:hover {
+          transform: scale(1.05);
+      }
+
+      .add-to-cart-btn {
+          background-color: #333;
+          color: white;
+          border: none;
+          padding: 5px 10px;
+          border-radius: 5px;
+          cursor: pointer;
+      }
+
+      /* Footer Styles */
+      #Footer {
+          background-color: #333;
+          color: white;
+          padding: 20px 0;
+      }
+
+      .footer-section {
+          padding-left: 20px;
+          width: 25%;
+          float: left;
+      }
+
+      .footer-link {
+          color: white;
+      }
+
+      .social-icon {
+          list-style: none;
+          padding: 0;
+      }
+
+      .social-icon li {
+          display: inline-block;
+          margin-right: 10px;
+      }
+
+      .social-icon a {
+          color: white;
+          text-decoration: none;
+      }
