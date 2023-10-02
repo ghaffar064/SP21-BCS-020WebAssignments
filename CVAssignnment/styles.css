@@ -1,0 +1,75 @@
+body{
+    margin: 0 auto;
+    max-width: 800px;
+    width: 90%;
+    background-color: lightgrey;
+
+}
+
+.left{
+width: 40%; float:left;
+}
+.right{
+width: 40%; float:right; 
+
+
+
+
+}
+.h1{
+    float: right;
+   margin-right: 290px;
+
+   
+    
+}
+.firstbox{
+     
+      width: 40%;
+      float: left;
+       padding: 15px;
+
+      
+}
+.secondbox{
+  
+      width: 40%;
+      float: right;
+      clear: right;
+      padding: 15px;
+
+    
+    
+}
+.thirdbox{
+   
+   
+    float:right;
+    width: 40%;
+    padding: 15px;
+    
+   
+   
+      
+     
+}
+.fourthbox{
+   
+    float: left;
+    width: 40%;
+    padding: 15px;
+     
+   
+      
+}
+
+.logo{
+  margin-left: 100px;  
+}
+
+.containerset{
+   width: 800px;
+   justify-content: center;
+   height: 1050px ;
+   background-color: antiquewhite;
+}
