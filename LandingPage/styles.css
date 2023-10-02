@@ -1,13 +1,13 @@
-  /* Custom CSS for your e-commerce website */
+ 
 
-        /* Global Styles */
+      
         body {
           font-family: Arial, sans-serif;
           background-color: #f9f9f9;
       }
    
 
-      /* Header Styles */
+     
       .navbar {
           background-color: #333; /* Dark background color for the header */
           color: white; /* Text color for the header */
@@ -22,7 +22,7 @@
           color: white;
       }
 
-      /* Search Bar Styles */
+   
       #searchInput {
           padding: 10px;
           border-radius: 25px;
@@ -38,10 +38,7 @@
           border: none;
       }
 
-      /* Carousel Styles */
-     #carouselExampleSlidesOnly {
-
-}
+     
 
       /* Product Card Styles */
       .product-card {
