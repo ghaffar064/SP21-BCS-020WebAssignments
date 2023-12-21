@@ -1,4 +1,4 @@
-////////////////////////////////////////////
+
 import {Product} from '../models/Products.js'
 export const newArrivals = async(req,res)=>{
         
