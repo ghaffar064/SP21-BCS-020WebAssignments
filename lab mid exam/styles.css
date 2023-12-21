@@ -1,0 +1,38 @@
+#warning{
+    margin-left: 50px;
+    
+}
+    
+.alert{
+    height: 45px;}
+  #logo{
+    margin-left: 50px;
+  }  
+
+  #logo1{color: green;
+         font-weight: bold;
+        
+}
+  #logo2{color: green;
+    font-size: 15px;
+}
+      #logo3{color: green;
+        font-size: 10px;
+    }  
+    #award{
+      font-weight: bold;
+      color: green;
+    }
+    .title{
+      color:lightblue;
+      margin-left: 80px;
+      margin-top: 30px;
+      margin-bottom: 70px;
+    }
+    #valueServices{
+      color: green;
+    }
+    #valueServices2{
+      color: blue;
+    }
+  
